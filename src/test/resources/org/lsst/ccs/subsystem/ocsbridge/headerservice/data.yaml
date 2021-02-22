@@ -1,0 +1,7504 @@
+PRIMARY:
+- keyword: SIMPLE
+  value: true
+  comment: ''
+- keyword: BITPIX
+  value: 8
+  comment: bits per data value
+- keyword: NAXIS
+  value: 0
+  comment: number of axes
+- keyword: EXTEND
+  value: true
+  comment: Extensions are permitted
+- keyword: ORIGIN
+  value: LSST DM Header Service
+  comment: FITS file originator
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Date, night and basic image information ----'
+- keyword: TIMESYS
+  value: TAI
+  comment: The time scale used
+- keyword: DATE
+  value: '2021-01-27T22:26:01.066'
+  comment: Creation Date and Time of File
+- keyword: DATE-OBS
+  value: '2021-01-27T22:26:37.043'
+  comment: Date of the observation (image acquisition)
+- keyword: DATE-BEG
+  value: '2021-01-27T22:26:37.043'
+  comment: Time at the start of integration
+- keyword: DATE-END
+  value: '2021-01-27T22:26:38.053'
+  comment: end date of the observation
+- keyword: MJD
+  value: 59241.93473455626
+  comment: Modified Julian Date that the file was written
+- keyword: MJD-OBS
+  value: 59241.935150962265
+  comment: Modified Julian Date of observation
+- keyword: MJD-BEG
+  value: 59241.935150962265
+  comment: Modified Julian Date derived from DATE-BEG
+- keyword: MJD-END
+  value: 59241.93516265497
+  comment: Modified Julian Date derived from DATE-END
+- keyword: OBSID
+  value: CC_O_20210127_000001
+  comment: ImageName from Camera StartIntergration
+- keyword: GROUPID
+  value: CALSET_XXXX_YYYY
+  comment: ''
+- keyword: IMGTYPE
+  value: BIAS
+  comment: BIAS, DARK, FLAT, OBJECT
+- keyword: BUNIT
+  value: 'adu     '
+  comment: Brightness units for pixel array
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Telescope info, location, observer ----'
+- keyword: FACILITY
+  value: Vera C. Rubin Observatory
+  comment: Facility name
+- keyword: TELESCOP
+  value: Simonyi Survey Telescope
+  comment: Telescope name
+- keyword: INSTRUME
+  value: ComCam
+  comment: Instrument used to obtain these data
+- keyword: OBSERVER
+  value: LSST
+  comment: Observer name(s)
+- keyword: OBS-LONG
+  value: -70.749417
+  comment: '[deg] Observatory east longitude'
+- keyword: OBS-LAT
+  value: -30.244639
+  comment: '[deg] Observatory latitude'
+- keyword: OBS-ELEV
+  value: 2663.0
+  comment: '[m] Observatory elevation'
+- keyword: OBSGEO-X
+  value: 1818938.94
+  comment: '[m] X-axis Geocentric coordinate'
+- keyword: OBSGEO-Y
+  value: -5208470.95
+  comment: '[m] Y-axis Geocentric coordinate'
+- keyword: OBSGEO-Z
+  value: -3195172.08
+  comment: '[m] Z-axis Geocentric coordinate'
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Pointing info, etc. ----'
+- keyword: RA
+  value: 57.29577951308232
+  comment: RA commanded from pointing component
+- keyword: DEC
+  value: 114.59155902616465
+  comment: DEC commanded from pointing component
+- keyword: RASTART
+  value: 1.0
+  comment: RA of telescope from AZSTART and ELSTART
+- keyword: DECSTART
+  value: 2.0
+  comment: DEC of telescope from AZSTART and ELSTART
+- keyword: RAEND
+  value: 1.0
+  comment: RA of telescope from AZEND and ELEND
+- keyword: DECEND
+  value: 2.0
+  comment: DEC of telescope from AZEND and ELEND
+- keyword: ROTPA
+  value: 45.0
+  comment: Rotation angle relative to the sky (deg)
+- keyword: ROTCOORD
+  value: sky
+  comment: Telescope Rotation Coordinates
+- keyword: HASTART
+  value: 20.0
+  comment: '[HH:MM:SS] Telescope hour angle at start'
+- keyword: ELSTART
+  value: 20.0
+  comment: '[deg] Telescope zenith distance at start'
+- keyword: AZSTART
+  value: 30.0
+  comment: '[deg] Telescope azimuth angle at start'
+- keyword: AMSTART
+  value: 1.1
+  comment: Airmass at start
+- keyword: HAEND
+  value: 20.0
+  comment: '[HH:MM:SS] Telescope hour angle at end'
+- keyword: ELEND
+  value: 20.0
+  comment: '[deg] Telescope zenith distance at end'
+- keyword: AZEND
+  value: 30.0
+  comment: '[deg] Telescope azimuth angle at end'
+- keyword: AMEND
+  value: 1.1
+  comment: Airmass at end
+- keyword: TRACKSYS
+  value: RADEC
+  comment: Tracking system RADEC, AZEL, PLANET, EPHEM
+- keyword: RADESYS
+  value: ICRS
+  comment: Equatorial coordinate system FK5 or ICRS
+- keyword: FOCUSZ
+  value: 0.2
+  comment: Focus Z position
+- keyword: OBJECT
+  value: ElGordo
+  comment: Name of the observed object
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Image-identifying used to build OBS-ID ----'
+- keyword: CAMCODE
+  value: CC
+  comment: The code for the camera (AT/CC/MC)
+- keyword: CONTRLLR
+  value: O
+  comment: The controller (e.g. O for OCS, C for (A)CCS)
+- keyword: DAYOBS
+  value: '20210127'
+  comment: The observation day as defined by image name
+- keyword: SEQNUM
+  value: 1
+  comment: The sequence number from the image name
+- keyword: TESTTYPE
+  value: SIMTEST_ABCD
+  comment: 'Test Type: BIAS:DARK:FLAT:OBS:PPUMP:QE:SFLAT'
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Test Stand information ----'
+- keyword: TSTAND
+  value: null
+  comment: The Test Stand used
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Information from Camera (Common block) ----'
+- keyword: IMAGETAG
+  value: TestTag
+  comment: DAQ Image id
+- keyword: OBSANNOT
+  value: Dummy Obs Annotation
+  comment: Observing annotation
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Filter/grating information ----'
+- keyword: FILTBAND
+  value: r
+  comment: Name of the filter band
+- keyword: FILTER
+  value: U-001
+  comment: Name of the physical filter
+- keyword: FILTSLOT
+  value: 0
+  comment: Filter home slot
+- keyword: FILTPOS
+  value: 666.0
+  comment: Filter measured position of slide
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Exposure-related information ----'
+- keyword: EXPTIME
+  value: 1.0
+  comment: Exposure time in seconds
+- keyword: SHUTTIME
+  value: 1.0838498056148644
+  comment: Shutter exposure time in seconds
+- keyword: DARKTIME
+  value: 2.0838498056148644
+  comment: Dark time in seconds
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Header information ----'
+- keyword: FILENAME
+  value: CC_O_20210127_000001.fits
+  comment: Original file name
+- keyword: HEADVER
+  value: 2.6.0
+  comment: Version of header
+R22S00_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -19.999806979909984
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S00
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S00_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S00_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -1.8194500079379878
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S01
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S01_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S01_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -9.43637555065855
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S02
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S02_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S02_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -14.03222507209276
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S10
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S10_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S10_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -3.1512142627057003
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S11
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S11_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S11_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -11.270682927482333
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S12
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S12_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S12_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -16.170407588410995
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S20
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S20_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S20_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -13.333655545615805
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S21
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S21_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S21_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_PRIMARY:
+- keyword: null
+  value: null
+  comment: '---- Information from Camera per sensor ----'
+- keyword: CCD_MANU
+  value: ITL
+  comment: CCD Manufacturer
+- keyword: CCD_TYPE
+  value: 1
+  comment: CCD Model Number
+- keyword: CCD_SERN
+  value: '12345'
+  comment: Manufacturers CCD Serial Number
+- keyword: LSST_NUM
+  value: ITL-YYYY-XXX
+  comment: LSST Assigned CCD Number
+- keyword: SEQCKSUM
+  value: '1234567890'
+  comment: Checksum of Sequencer
+- keyword: SEQNAME
+  value: SEQNAME_TEST
+  comment: SequenceName from Camera
+- keyword: REBNAME
+  value: REBNAME_TEST
+  comment: Name of the REB
+- keyword: CONTNUM
+  value: REBSER_TEST
+  comment: CCD Controller (WREB) Serial Number
+- keyword: TEMP_SET
+  value: -3.368272737118083
+  comment: Temperature set point (deg C)
+- keyword: CCDTEMP
+  value: null
+  comment: Measured temperature (deg C)
+- keyword: CCDSLOT
+  value: S22
+  comment: Name of the CCD Slot (SXx)
+- keyword: RAFTBAY
+  value: R22
+  comment: Name of the RAFT Bay (Rnn)
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Geometry from Camera ----'
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: Size of sensor
+- keyword: OVERH
+  value: 32
+  comment: Over-scan pixels
+- keyword: OVERV
+  value: 48
+  comment: Vert-overscan pix
+- keyword: PREH
+  value: 509
+  comment: Pre-scan pixels
+- keyword: COMMENT
+  value: ''
+  comment: ''
+- keyword: null
+  value: null
+  comment: '---- Checksums ----'
+- keyword: CHECKSUM
+  value: null
+  comment: checksum for the current HDU
+- keyword: DATASUM
+  value: null
+  comment: checksum of the data records
+R22S22_Segment10:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment10
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment11:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment11
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment12:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment12
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment13:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment13
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment14:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment14
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment15:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment15
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment16:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment16
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment17:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment17
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,1:2000]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 0
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: 1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment07:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment07
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[4072:3564,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4582
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment06:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment06
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3563:3055,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 4073
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment05:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment05
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[3054:2546,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3564
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment04:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment04
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2545:2037,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 3055
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment03:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment03
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[2036:1528,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2546
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment02:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment02
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1527:1019,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 2037
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment01:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment01
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[1018:510,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1528
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
+R22S22_Segment00:
+- keyword: XTENSION
+  value: 'IMAGE   '
+  comment: marks beginning of new HDU
+- keyword: BITPIX
+  value: 32
+  comment: bits per data value
+- keyword: INHERIT
+  value: true
+  comment: Inherits global header
+- keyword: PCOUNT
+  value: 0
+  comment: Required value
+- keyword: GCOUNT
+  value: 1
+  comment: Required value
+- keyword: EXTNAME
+  value: Segment00
+  comment: ''
+- keyword: DATASEC
+  value: '[510:1018,1:2000]'
+  comment: ''
+- keyword: DETSEC
+  value: '[509:1,4000:2001]'
+  comment: ''
+- keyword: DETSIZE
+  value: '[1:4072,1:4000]'
+  comment: ''
+- keyword: DTV1
+  value: 1019
+  comment: detector transformation vector
+- keyword: DTV2
+  value: 4001
+  comment: detector transformation vector
+- keyword: DTM1_1
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM2_2
+  value: -1.0
+  comment: detector transformation matrix
+- keyword: DTM1_2
+  value: 0
+  comment: detector transformation matrix
+- keyword: DTM2_1
+  value: 0
+  comment: detector transformation matrix
